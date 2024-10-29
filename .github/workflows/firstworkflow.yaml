@@ -9,3 +9,4 @@ jobs:
                 node -v
                 npm -v
                 cat /etc/os-release
+                uptime
