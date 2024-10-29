@@ -10,3 +10,4 @@ jobs:
                 npm -v
                 cat /etc/os-release
                 uptime
+                pwd
