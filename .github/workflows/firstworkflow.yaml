@@ -1,0 +1,11 @@
+name: myfirstworkflow
+on: push
+jobs:
+    run-shell-commands:
+        runs-on: ubuntu-20.04
+        steps:
+            - name: commands to execute
+              run: |
+                node -v
+                npm -v
+                cat /etc/os-release
