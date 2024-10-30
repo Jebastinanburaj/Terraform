@@ -3,7 +3,7 @@ on:
   push
 jobs:
   bash-script:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Run Bash script
         run: echo "Hello this is sample workflow"
