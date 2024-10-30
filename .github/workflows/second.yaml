@@ -6,4 +6,10 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Run Bash script
-        run: ls -a
+        run: |
+        ls -a
+        java --version
+        docker --version
+        npm -v
+        git --version
+        cat /etc/os-release
