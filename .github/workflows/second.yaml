@@ -7,9 +7,9 @@ jobs:
     steps:
       - name: Run Bash script
         run: |
-        ls -a
-        java --version
-        docker --version
-        npm -v
-        git --version
-        cat /etc/os-release
+          ls -a
+          java --version
+          docker --version
+          npm -v
+          git --version
+          cat /etc/os-release
